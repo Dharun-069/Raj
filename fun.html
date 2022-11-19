@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 10px solid green;
+            border-collapse: collapse;
+        }
+        th,td,tr{
+            border: 2px solid black ;
+            margin-left: 10px;
+        }
+        .container{
+            height: 1000px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction:  row;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+        }
+        .div{
+            height: 200px;
+            width: 200px;
+            border: 2px solid yellow;
+            background-color: aquamarine;
+         }
+         .home{
+            
+         }
+         .flex{
+            height: 50px;
+            width: 50px;
+            border: 1px solid black;
+         }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <head>
+            <tr>
+                <th>Name</th>
+                <th>Reg.no</th>
+                <th>Mark</th>
+            </tr>
+        </head>
+        <body>
+            <tr>
+                <td>Dharun</td>
+                <td>220019</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Alagar</td>
+                <td>220018</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Mani</td>
+                <td>220017</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Sundar</td>
+                <td>220016</td>
+                <td>50</td>
+            </tr>
+        </body>
+    </table>
+    <br>
+    <div class="container">
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+    </div>
+    <br>
+    <div class="home">
+        <div class="flex"></div>
+        <div class="flex"></div>
+        <div class="flex"></div>
+        <div class="flex"></div>
+        <div class="flex"></div>
+    </div>
+</body>
+
+</html>
